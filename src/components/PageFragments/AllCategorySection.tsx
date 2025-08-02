@@ -140,7 +140,7 @@ const AllCategorySection = () => {
 
 	return (
 		<>
-			<section className='grid grid-cols-1 lg:grid-cols-10 items-center px-6 gap-6 min-h-screen bg-white relative overflow-hidden'>
+			<section className='flex flex-col-reverse lg:grid grid-cols-1 lg:grid-cols-10 items-center px-6 gap-6 min-h-screen bg-white relative overflow-hidden'>
 				{/* LEFT TEXT CONTENT */}
 				<div className='lg:col-span-4 z-10 text-black space-y-2 lg:space-y-4 h-full flex flex-col justify-center'>
 					<h3 className='font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight md:leading-8'>
@@ -170,22 +170,22 @@ const AllCategorySection = () => {
 				</div>
 
 				{/* RIGHT IMAGE CONTENT */}
-				<div className='lg:col-span-6 relative flex justify-end items-center h-full'>
+				<div className='lg:col-span-6 relative flex justify-center lg:justify-end items-center h-full'>
 					{/* Optional background gradient or shadow */}
-					<div className='absolute -top-10 -left-10 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-purple-200 via-purple-400 to-purple-600 opacity-20 blur-2xl z-0'></div>
+					<div className='absolute top-10 lg:-top-10 -left-10 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-purple-200 via-purple-400 to-purple-600 opacity-20 blur-2xl z-0'></div>
 
 					{/* Main phone image */}
 					<Picture
 						src={iphoneImage}
 						alt='iPhone'
-						className='relative z-10 w-[80%] object-cover'
+						className='relative z-10 w-[80%] lg:w-[50%] object-cover object-center'
 					/>
 
 					{/* Label tags */}
 					<Picture
 						src={highestImage}
 						alt='highest'
-						className='absolute bottom-10 lg:bottom-40 left-20 lg:left-40 z-10 object-contain w-[80px] lg:w-[150px]'
+						className='absolute bottom-10 lg:bottom-40 left-20 lg:left-96 z-10 object-contain w-[80px] lg:w-[150px]'
 					/>
 				</div>
 			</section>
