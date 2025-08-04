@@ -124,7 +124,7 @@ const Footer = () => {
 				<div className='grid grid-cols-2 gap-8 py-4 lg:py-12 md:grid-cols-2 lg:grid-cols-5'>
 					{/* Brand Info */}
 					<div className='space-y-4'>
-						<LogoImage className='h-10 w-auto' />
+						<LogoImage className='!w-[70px] lg:!w-[80px]' />
 						<p className='text-gray-600 text-xs lg:text-sm'>
 							The best e-commerce store for your needs!
 						</p>

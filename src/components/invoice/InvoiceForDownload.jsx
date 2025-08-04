@@ -285,7 +285,7 @@ const InvoiceForDownload = (data) => {
 									marginRight: "40%",
 								}}
 							>
-								<LogoImage className='rounded-sm' />
+								<LogoImage className='!w-[70px] lg:!w-[80px]' />
 							</Text>
 							<Text style={styles.topAddress}>{data?.billing?.address_1}</Text>
 						</View>
