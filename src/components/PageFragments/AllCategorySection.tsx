@@ -145,7 +145,7 @@ const AllCategorySection = () => {
 				<div className='lg:col-span-4 z-10 text-black space-y-2 lg:space-y-4 h-full flex flex-col justify-center'>
 					<h3 className='font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl tracking-tight leading-tight md:leading-8'>
 						Grab{" "}
-						<span className='inline-block bg-pink-500 text-white px-4 py-1 rounded-md text-3xl md:text-4xl lg:text-5xl font-bold transform -rotate-2'>
+						<span className='inline-block bg-primary text-white px-4 py-1 rounded-md text-3xl md:text-4xl lg:text-5xl font-bold transform -rotate-2'>
 							50%
 						</span>{" "}
 						<br />
@@ -172,7 +172,7 @@ const AllCategorySection = () => {
 				{/* RIGHT IMAGE CONTENT */}
 				<div className='lg:col-span-6 relative flex justify-center lg:justify-end items-center h-full'>
 					{/* Optional background gradient or shadow */}
-					<div className='absolute top-10 lg:-top-10 -left-10 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-purple-200 via-purple-400 to-purple-600 opacity-20 blur-2xl z-0'></div>
+					<div className='absolute top-10 lg:-top-10 -left-10 w-[400px] h-[400px] rounded-full bg-gradient-to-tr from-primary-500 via-primary to-orange-500 opacity-20 blur-2xl z-0'></div>
 
 					{/* Main phone image */}
 					<Picture

@@ -20,14 +20,14 @@ export const theme = {
 				300: "#F7F7F7",
 				400: "#FAFAFA",
 			},
-			primary: "#E51E95",
-			effect: "#F8E0EE",
+			primary: "#F37021",
+			effect: "#E6F3F2",
 			primaryColor: {
-				100: "#F9B9DC",
-				200: "#F18AC6",
-				300: "#E95CB0",
-				400: "#E51E95",
-				500: "#C2187D",
+				100: "#42B8AB", // Very light teal
+				200: "#80D1C9", // Light teal
+				300: "#42B8A9", // Teal green
+				400: "#2B9D91", // Deeper teal (aligns with top arc of logo)
+				500: "#F37021",
 			},
 			dark: "#231834",
 			text_color: "#19191D",
