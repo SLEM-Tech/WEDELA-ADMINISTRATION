@@ -253,7 +253,7 @@ const Header = () => {
 									</span>
 								</div>
 							) : (
-								<UserIconSvg className='w-8 h-8 fill-white/80' />
+								<UserIconSvg className='w-8 h-8 fill-primary/80' />
 							)}
 
 							<div className='flex flex-col text-primary font-semibold text-sm'>
@@ -510,7 +510,7 @@ const Header = () => {
 								}
 							}}
 						/>
-
+						<div className=''></div>
 						{isSearchLoading ? (
 							<button
 								type='button'
