@@ -154,7 +154,7 @@ const AllCategorySection = () => {
 
 					<p className='text-base md:text-lg lg:text-xl leading-7 text-gray-600 max-w-md'>
 						Upgrade to the latest models with premium features at half the
-						price. Limited stock available - shop now before they're gone!
+						price. Limited stock available - shop now before they&apos;re gone!
 					</p>
 
 					<div className='flex items-center gap-2 lg:gap-4 pt-2 lg:pt-4'>
