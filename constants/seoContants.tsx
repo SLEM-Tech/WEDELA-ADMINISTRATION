@@ -1,9 +1,9 @@
-const websiteUrl = "";
+const websiteUrl = "https://wedela-administration.vercel.app";
 export const websiteName = "Wedela";
 
 // WEDELA ADMINISTRATION GLOBAL INVESTMENT LTD
 export const SEODATA = {
-	defaultOGImage: ``,
+	defaultOGImage: `/_next/static/media/wedela-logo.5d4b2db8.png`,
 	default: {
 		title: websiteName,
 		description: `This is ${websiteName}`,

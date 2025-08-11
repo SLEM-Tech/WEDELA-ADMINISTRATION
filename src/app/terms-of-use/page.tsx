@@ -40,7 +40,7 @@ const Page = () => {
 					<span className='text-xs sm:text-sm xl:text-base leading-[150%] text-black/80 sm:max-w-3xl slg:max-w-2xl'>
 						At Wedela Administration Global Investment Ltd, we excel in import
 						and export operations, supply premium general goods and digital
-						equipment while serving as manufacturers' representatives with
+						equipment while serving as manufacturers&apos; representatives with
 						comprehensive contract services and global trade solutions.
 					</span>
 					<div className='flex gap-2 mt-3 xl:mt-8 text-[10px] xs:text-xs sm:text-sm slg:text-base leading-[140%] bg-[#F5F5F5] p-1 rounded-md transition'>
@@ -96,9 +96,10 @@ const Page = () => {
 
 							<p className='mt-2 leading-[1.8] text-xs md:text-sm xl:text-base'>
 								By engaging Wedela Administration Global Investment Ltd for
-								import/export services, digital equipment supply, manufacturers'
-								representative services, or general contracts, you agree to the
-								following comprehensive terms and conditions:
+								import/export services, digital equipment supply,
+								manufacturers&apos; representative services, or general
+								contracts, you agree to the following comprehensive terms and
+								conditions:
 							</p>
 
 							<ul className='list-disc pl-5 mt-2 space-y-2 text-xs md:text-sm xl:text-base'>
@@ -123,7 +124,7 @@ const Page = () => {
 								</li>
 								<li>
 									<span className='font-medium'>
-										Manufacturers' Representative Services:
+										Manufacturers&apos; Representative Services:
 									</span>{" "}
 									As authorized representatives for international manufacturers,
 									we provide market entry assistance, local distribution
@@ -482,7 +483,7 @@ const Page = () => {
 
 							<div className='mb-6'>
 								<h4 className='font-medium text-xs md:text-sm xl:text-base mb-2'>
-									Manufacturers' Representative Services
+									Manufacturers&apos; Representative Services
 								</h4>
 								<ul className='list-disc pl-5 space-y-1 text-xs md:text-sm xl:text-base'>
 									<li>Local market analysis and entry strategy development</li>
@@ -494,7 +495,7 @@ const Page = () => {
 								</ul>
 							</div>
 
-							<div className='mt-6 pt-4 border-t border-gray-200'>
+							{/* <div className='mt-6 pt-4 border-t border-gray-200'>
 								<h4 className='font-semibold text-xs md:text-sm xl:text-base mb-2'>
 									International Trade Contact
 								</h4>
@@ -502,11 +503,11 @@ const Page = () => {
 									<li>Import Operations: imports@wedelaglobal.com.ng</li>
 									<li>Export Services: exports@wedelaglobal.com.ng</li>
 									<li>Equipment Supply: equipment@wedelaglobal.com.ng</li>
-									<li>Manufacturers' Rep: manufacturing@wedelaglobal.com.ng</li>
+									<li>Manufacturers&apos; Rep: manufacturing@wedelaglobal.com.ng</li>
 									<li>Phone: �801-234-5011</li>
 									<li>Website: www.wedelaglobal.com.ng</li>
 								</ul>
-							</div>
+							</div> */}
 						</div>
 					)}
 
@@ -563,8 +564,8 @@ const Page = () => {
 									</span>
 									<ul className='list-disc pl-5 mt-1 space-y-1'>
 										<li>
-											30-day refund for equipment that doesn't meet published
-											specifications
+											30-day refund for equipment that doesn&apos;t meet
+											published specifications
 										</li>
 										<li>
 											Full refund for counterfeit or non-authentic equipment
@@ -587,7 +588,7 @@ const Page = () => {
 
 								<li>
 									<span className='font-medium'>
-										3. Manufacturers' Representative Refunds
+										3. Manufacturers&apos; Representative Refunds
 									</span>
 									<ul className='list-disc pl-5 mt-1 space-y-1'>
 										<li>
@@ -595,8 +596,8 @@ const Page = () => {
 											cannot be achieved
 										</li>
 										<li>
-											Distribution setup refunds for networks that don't meet
-											agreed coverage requirements
+											Distribution setup refunds for networks that don&apos;t
+											meet agreed coverage requirements
 										</li>
 										<li>
 											Regulatory approval refunds if certifications cannot be
@@ -751,7 +752,7 @@ const Page = () => {
 								</li>
 							</ul>
 
-							<div className='mt-6 pt-4 border-t border-gray-200'>
+							{/* <div className='mt-6 pt-4 border-t border-gray-200'>
 								<h4 className='font-semibold text-xs md:text-sm xl:text-base mb-2'>
 									Contact Information
 								</h4>
@@ -765,7 +766,7 @@ const Page = () => {
 									<li>Phone: �801-234-5011</li>
 									<li>Website: www.wedelaglobal.com.ng</li>
 								</ul>
-							</div>
+							</div> */}
 						</div>
 					)}
 				</div>
