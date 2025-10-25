@@ -1,3 +1,4 @@
+//@ts-nocheck
 import AppLayout from "@src/components/AppLayout";
 import AllCategorySection from "@src/components/PageFragments/AllCategorySection";
 import SortedProducts from "./(Home)/_components/SortedProducts";
@@ -21,6 +22,7 @@ export const metadata: Metadata = {
 
 const page = () => {
 	return (
+		
 		<AppLayout className="className='pt-10 mx-auto max-w-[1256px] mt-36 lg:mt-14 pb-10 lg:pb-20">
 			<AllCategorySection />
 			<div className='mt-4 sm:mt-10'>

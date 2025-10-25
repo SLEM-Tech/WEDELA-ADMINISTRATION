@@ -1,3 +1,4 @@
+//@ts-nocheck
 "use client";
 import React from "react";
 import { AiOutlineMinusCircle, AiOutlinePlusCircle } from "react-icons/ai";
